@@ -32,6 +32,8 @@
 
 import Foundation
 
+typealias ThreeDucksStore = Store<ThreeDucksState>
+
 class Store<State>: ObservableObject {
   @Published private(set) var state: State
 
