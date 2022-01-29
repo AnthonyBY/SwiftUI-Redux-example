@@ -29,6 +29,8 @@
 		49FFE1C42608A74E009F2416 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FFE1C32608A74E009F2416 /* Card.swift */; };
 		9292D7B127A3F980006C1DB8 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9292D7B027A3F980006C1DB8 /* State.swift */; };
 		9292D7B427A409F9006C1DB8 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9292D7B327A409F9006C1DB8 /* Store.swift */; };
+		92A0173427A5E63200DAF946 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A0173327A5E63200DAF946 /* Actions.swift */; };
+		92A0173627A5E6FC00DAF946 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A0173527A5E6FC00DAF946 /* Reducer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		49FFE1C32608A74E009F2416 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		9292D7B027A3F980006C1DB8 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		9292D7B327A409F9006C1DB8 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		92A0173327A5E63200DAF946 /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		92A0173527A5E6FC00DAF946 /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +157,8 @@
 			isa = PBXGroup;
 			children = (
 				9292D7B027A3F980006C1DB8 /* State.swift */,
+				92A0173327A5E63200DAF946 /* Actions.swift */,
+				92A0173527A5E6FC00DAF946 /* Reducer.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -265,6 +271,7 @@
 				499C708D260C202F00BE1486 /* TitleScreenView.swift in Sources */,
 				495CB6482610424F00DC9D44 /* GameState.swift in Sources */,
 				49107CCA26171D0100E85A59 /* QuackPlayer.swift in Sources */,
+				92A0173427A5E63200DAF946 /* Actions.swift in Sources */,
 				49D3F03426183D45004D49D3 /* CardGridView.swift in Sources */,
 				4978903F2613374D00A5E9B8 /* GameWinScreenView.swift in Sources */,
 				49FFE1BF2608A622009F2416 /* GameScreenView.swift in Sources */,
@@ -275,6 +282,7 @@
 				9292D7B127A3F980006C1DB8 /* State.swift in Sources */,
 				49107CC426168FF500E85A59 /* ScorePersistence.swift in Sources */,
 				1839F4B025190F2A00BB00F1 /* AppMain.swift in Sources */,
+				92A0173627A5E6FC00DAF946 /* Reducer.swift in Sources */,
 				49DC5FEE260F237400D17454 /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
