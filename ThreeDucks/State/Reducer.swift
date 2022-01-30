@@ -36,5 +36,13 @@ typealias Reducer<State, Action> = (State, Action) -> State
 
 let threeDucksReducer: Reducer<ThreeDucksState, ThreeDucksAction>
   = { state, action in
-    return state
+    var mutatingState = state
+    switch action {
+    case .startGame:
+      mutatingState.gameState = .started
+    case .endGame:
+      mutatingState.gameState = .title
+    }
+
+    return mutatingState
 }

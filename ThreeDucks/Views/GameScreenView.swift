@@ -33,6 +33,9 @@
 import SwiftUI
 
 struct GameScreenView: View {
+
+  @EnvironmentObject var store: ThreeDucksStore
+
   let cards = [
     Card(animal: .bat),
     Card(animal: .bat),
@@ -51,7 +54,9 @@ struct GameScreenView: View {
   var body: some View {
     VStack(alignment: .leading) {
       Button {
-        // Action
+        withAnimation {
+          store.dispatch(.endGame)
+        }
       } label: {
         HStack {
           Image(systemName: "hand.point.left.fill")
