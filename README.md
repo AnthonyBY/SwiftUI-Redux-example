@@ -1,2 +1,2 @@
 # SwiftUI-Redux-example
-Sample projects with SwiftUI and Redux archecture 
+Sample projects with SwiftUI and Redux architecture 
