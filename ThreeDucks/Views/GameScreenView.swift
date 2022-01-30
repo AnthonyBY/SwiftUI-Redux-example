@@ -36,21 +36,6 @@ struct GameScreenView: View {
 
   @EnvironmentObject var store: ThreeDucksStore
 
-  let cards = [
-    Card(animal: .bat),
-    Card(animal: .bat),
-    Card(animal: .ducks),
-    Card(animal: .ducks),
-    Card(animal: .bear),
-    Card(animal: .bear),
-    Card(animal: .pelican),
-    Card(animal: .pelican),
-    Card(animal: .horse),
-    Card(animal: .horse),
-    Card(animal: .elephant),
-    Card(animal: .elephant)
-  ].shuffled()
-
   var body: some View {
     VStack(alignment: .leading) {
       Button {
@@ -66,7 +51,7 @@ struct GameScreenView: View {
       }
       .padding()
       Spacer()
-      CardGridView(cards: cards)
+      CardGridView(cards: store.state.cards)
       .padding(8)
 
       Spacer()
