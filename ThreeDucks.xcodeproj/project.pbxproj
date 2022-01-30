@@ -32,6 +32,7 @@
 		92A0173427A5E63200DAF946 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A0173327A5E63200DAF946 /* Actions.swift */; };
 		92A0173627A5E6FC00DAF946 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A0173527A5E6FC00DAF946 /* Reducer.swift */; };
 		92A0173827A67FDA00DAF946 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 92A0173727A67FDA00DAF946 /* README.md */; };
+		92A0173A27A7232600DAF946 /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A0173927A7232600DAF946 /* Middleware.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		92A0173327A5E63200DAF946 /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
 		92A0173527A5E6FC00DAF946 /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
 		92A0173727A67FDA00DAF946 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		92A0173927A7232600DAF946 /* Middleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Middleware.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 				9292D7B027A3F980006C1DB8 /* State.swift */,
 				92A0173327A5E63200DAF946 /* Actions.swift */,
 				92A0173527A5E6FC00DAF946 /* Reducer.swift */,
+				92A0173927A7232600DAF946 /* Middleware.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				9292D7B427A409F9006C1DB8 /* Store.swift in Sources */,
 				499C708D260C202F00BE1486 /* TitleScreenView.swift in Sources */,
 				495CB6482610424F00DC9D44 /* GameState.swift in Sources */,
+				92A0173A27A7232600DAF946 /* Middleware.swift in Sources */,
 				49107CCA26171D0100E85A59 /* QuackPlayer.swift in Sources */,
 				92A0173427A5E63200DAF946 /* Actions.swift in Sources */,
 				49D3F03426183D45004D49D3 /* CardGridView.swift in Sources */,
